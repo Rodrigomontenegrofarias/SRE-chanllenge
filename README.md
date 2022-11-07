@@ -30,14 +30,19 @@ Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la r
 con una discucion de los resultados.
 
 <p align="center">
-  <img width="460" height="300" src="imagenes/1.png">
+  <img width="600" height="200" src="imagenes/1.png">
+</p>
+
+<p align="center">
+  <img width="600" height="200" src="imagenes/3.png">
+</p>
+
+<p align="center">
+  <img width="600" height="200" src="imagenes/6.png">
 </p>
 
 
 
-![Imagen de estres 2](imagenes/3.png "Imagen de estres con 3 thread")
-
-![Imagen de estres 3](imagenes/6.png "Imagen de estres con 6 thread")
 
 
 a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
@@ -71,9 +76,15 @@ API =
 
 Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guardar el mejor modelo automatico de pickle de forma serializada.
 
-Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en la siguente imagen.
+Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
-![Texto alternativo](imagenes/1.png "Título alternativo")
+<div>
+<p style = 'text-align:center;'>
+<iframe width="600" height = "420"
+src="imagenes/rodrigo.mp4">
+</iframe>
+</div>
+</p>
 
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
 
