@@ -30,15 +30,15 @@ Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la r
 con una discucion de los resultados.
 
 <p align="center">
-  <img width="600" height="200" src="imagenes/1.png">
+  <img width="500" height="200" src="imagenes/1.png">
 </p>
 
 <p align="center">
-  <img width="600" height="200" src="imagenes/3.png">
+  <img width="500" height="200" src="imagenes/3.png">
 </p>
 
 <p align="center">
-  <img width="600" height="200" src="imagenes/6.png">
+  <img width="500" height="200" src="imagenes/6.png">
 </p>
 
 
@@ -71,20 +71,15 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 # Nuestro ambientes estaran alojados en los siguientes Link:
 
-Jupyter notebook =
-API =
+1. [API](https://localhost:5000)
+
+2. [Notebook Jupyter](https://localhost:8881)
 
 Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guardar el mejor modelo automatico de pickle de forma serializada.
 
 Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
-<div>
-<p style = 'text-align:center;'>
-<iframe width="600" height = "420"
-src="imagenes/rodrigo.mp4">
-</iframe>
-</div>
-</p>
+
 
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
 
