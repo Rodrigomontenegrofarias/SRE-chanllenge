@@ -9,7 +9,7 @@ despegan del aeropuerto de Santiago de Chile (SCL). Para eso utilizó un dataset
 donde cada fila corresponde a un vuelo que aterrizó o despegó de SCL.
 – Para cada vuelo se cuenta con la siguiente información:
 
-#Como SRE Engineer, tu desafío consiste en tomar el trabajo del equipo, exponerlo para que sea explotado por un
+Como SRE Engineer, tu desafío consiste en tomar el trabajo del equipo, exponerlo para que sea explotado por un
 sistema:
 
 1. Exponer el modelo serializado a través API REST.
@@ -36,17 +36,17 @@ a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
 Las pruebas se podrian mejorar automatizando este proceso y guardando estos parametros obtenidos por la estres realizada a la api.
 
 
-# 5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API?
+ 5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API?
 
 Seria mediante LDAP, en las dos ultimas oportunidades de trabajo ocupan este sistema y verifica solo con las personas de la empresa de forma segura.
 
 a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
 
-
+A mi prejuicio si, pero en primera ocacion se debería implemenmtar LDAP y obtener metricas que validen si agrega algun nivel de latencia.
 
 6. ¿Cuáles serían los SLIs y SLOs que definirías y por qué?
 
-### Instructivo despliegue de ambiente.
+Instructivo despliegue de ambiente.
 
 git clone repo.
 cd repo
