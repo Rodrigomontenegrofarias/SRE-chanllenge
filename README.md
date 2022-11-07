@@ -28,7 +28,12 @@ segundos.
 
 Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 para concluir
 con una discucion de los resultados.
-<center>![Imagen de estres 1](imagenes/1.png "Imagen de estres con 1 thread")</center>
+
+<p align="center">
+  <img width="460" height="300" src="imagenes/1.png">
+</p>
+
+
 
 ![Imagen de estres 2](imagenes/3.png "Imagen de estres con 3 thread")
 
