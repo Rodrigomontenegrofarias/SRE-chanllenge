@@ -29,7 +29,7 @@ Luego que podiamos implementarlo de forma local se dessarollo atraves de Terrafo
 3. Hacer pruebas de estrés a la API con el modelo expuesto con al menos 50.000 requests durante 45
 segundos.
 
-Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 ya que solo nos permitio con estos parametros, se deduce que .
+Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de 1, 3 y 6. 
 
 Prueba de estres a la API nº1
 <p align="center">
@@ -44,7 +44,7 @@ Prueba de estres a la API nº3
   <img width="500" height="200" src="imagenes/6.png">
 </p>
 
-
+Ya que solo nos permitio con estos parametros en la pruebas, se deduce que se obtienen parametros simelares, pero la que contiene 3 thread se logra obtener menos segundos en AVG de latencia, notamos que en primera imagen que contiene 1 thread los resultados de desviacion estándar de latencia son menores.
 
 
 
@@ -59,7 +59,7 @@ Seria mediante LDAP, en las dos ultimas oportunidades de trabajo ocupan este sis
 
 a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
 
-A mi prejuicio si, pero en primera ocacion se debería implemenmtar LDAP y obtener metricas que validen si agrega algun nivel de latencia.
+A mi prejuicio si, pero en primera ocacion se debería implemenmtar LDAP y obtener metricas que validen si se agrega algun nivel de latencia, luego analizar y discutir los datos.
 
 6. ¿Cuáles serían los SLIs y SLOs que definirías y por qué?
 SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansables, luego controlar nuestra SLO priorisando las tareas de acuerdo a efectuar las necesidades del cliente. En las SLI evalúa el cumplimiento de un SLO, por ejemplo para ver cuanto tiempo estaran disponibles nuestros sistemas, cumpliendo o superando las promesas realizada en els documento. 
