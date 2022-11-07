@@ -61,10 +61,10 @@ Seria mediante LDAP, en las dos ultimas oportunidades de trabajo ocupan este sis
 
 a. ¿Este mecanismo agrega algún nivel de latencia al consumidor? ¿Por qué?
 
-A mi prejuicio si, pero en primera ocacion se debería implemenmtar LDAP y obtener metricas que validen si se agrega algun nivel de latencia, luego analizar y discutir los datos.
+A mi prejuicio si, pero en primera ocasión se debería implementar LDAP y obtener métricas que validen si se agrega algún nivel de latencia, luego analizar y discutir los datos.
 
 6. ¿Cuáles serían los SLIs y SLOs que definirías y por qué?
-SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansables, luego controlar nuestra SLO priorisando las tareas de acuerdo a efectuar las necesidades del cliente. En las SLI evalúa el cumplimiento de un SLO, por ejemplo para ver cuanto tiempo estaran disponibles nuestros sistemas, cumpliendo o superando las promesas realizada en els documento. 
+SLOs las definiria en primera instancia que seria mapear nuestros objetivos alcanzables, luego controlar nuestra SLO priorizando las tareas de acuerdo a efectuar las necesidades del cliente y la empresa. En las SLI evalúa el cumplimiento de un SLO, por ejemplo para ver cuanto tiempo estarán  disponibles nuestros sistemas, cumpliendo o superando las promesas realizada en els documento. 
 
 
 ## Instructivo despliegue de ambiente.
@@ -84,7 +84,7 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 2. [Notebook Jupyter](https://localhost:8881)
 
-Se ejecuta la pagina web de jupyter nobtebook  con el fin de guardar el mejor modelo automatico de pickle de forma serializada. Luego se puede probar el modelo de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
+Se ejecuta la pagina web de jupyter notebook con el fin de guardar el mejor modelo automatico de pickle de forma serializada. Luego se puede probar el modelo de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
 
 
