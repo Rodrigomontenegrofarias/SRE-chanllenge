@@ -18,7 +18,7 @@ RUN pip3 install Flask
 
 
 ADD deploy.py deploy.py
-ADD venv venv
+#ADD venv venv
 ADD pickle_model.pkl pickle_model.pkl
 
 ADD deploy.py deploy.py
