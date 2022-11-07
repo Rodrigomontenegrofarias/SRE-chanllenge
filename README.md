@@ -15,10 +15,12 @@ sistema:
 1. Exponer el modelo serializado a través API REST.
 
 
-Para el primer paso se utilizo el framework de Flask que nos permite crear una api rest para la utilizacion cliente-servidor
-con peticiones post y get, con la intencion de ser consumidos, utilizamos un index para exponer el modelo mas optimo para este problema,
+Para el primer paso se utilizo el framework de Flask que nos permite crear una api rest para la utilizacion cliente-servidor como se muestra en la sigeunte imagen, con peticiones post y get, con la intencion de ser consumidos, utilizamos un index para exponer el modelo mas optimo para este problema,
 fue almacenado y cargado de forma serializada con pickle.
 
+<p align="center">
+  <img width="500" height="200" src="imagenes/UML-13.png">
+</p>
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
 
