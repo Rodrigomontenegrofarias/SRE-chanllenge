@@ -88,6 +88,10 @@ Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acue
 
 
 
+https://user-images.githubusercontent.com/59695256/200410471-d3cdb85f-834b-4110-94e4-d5a413e8e695.mp4
+
+
+
 
 
 
