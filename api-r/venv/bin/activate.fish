@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/rodrigo/SRE-chanllenge/api-r/venv"
+set -gx VIRTUAL_ENV "/home/rodrigo/a/api-r/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
