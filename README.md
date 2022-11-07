@@ -19,7 +19,7 @@ Para el primer paso se utilizo el framework de Flask que nos permite crear una a
 fue almacenado y cargado de forma serializada con pickle en respectiva api, ya que luego se utilizara para predecir, si el avion se atraza.
 
 <p align="center">
-  <img width="850" height="350" src="imagenes/UML-14.jpg">
+  <img width="850" height="550" src="imagenes/UML-14.jpg">
 </p>
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
@@ -91,8 +91,8 @@ Se ejecuta la pagina web de Jupyter Nobtebook con el fin de guardar el mejor mod
 https://user-images.githubusercontent.com/59695256/200410471-d3cdb85f-834b-4110-94e4-d5a413e8e695.mp4
 
 
-Por ultimo se efecutaron pruebas predictivas, en el caso que avion obtenga una probabilidad de atraso o no, de acuerdo a las variables de entrada que fueron mencionadas anteriormente y vistas en el video, logrando predecir o estimar correctamente.
-
+Por ultimo se efecutaron pruebas predictivas, en el caso que avion obtenga una probabilidad de atraso de los vuelos que aterrizan o
+despegan del aeropuerto de Santiago de Chile, de acuerdo a las variables de entrada que fueron mencionadas anteriormente y vistas en el video, logrando predecir o estimar correctamente.
 
 
 
