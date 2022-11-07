@@ -28,13 +28,13 @@ segundos.
 
 Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 para concluir
 con una discucion de los resultados.
-![nombre de la imagen][img1]
-![nombre de la imagen][img1]
-![nombre de la imagen][img1]
+![Texto alternativo](imagenes/1.png "Título alternativo")
+![Texto alternativo](imagenes/3.png "Título alternativo")
+![Texto alternativo](imagenes/6.png "Título alternativo")
 
 
 a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
-Las pruebas se podrian mejorar automatizando este proceso y guardando estos parametros obtenidos por la estres realizada a la api.
+Las pruebas se podrian mejorar automatizando este proceso y guardando estos parametros obtenidos por la estres realizada a la API.
 
 
  5. ¿Cuáles serían los mecanismos ideales para que sólo sistemas autorizados puedan acceder a esta API?
@@ -66,7 +66,7 @@ Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guard
 
 Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en la siguente imagen.
 
-![nombre de la imagen][img1]
+![Texto alternativo](/ruta/a/la/imagen.jpg "Título alternativo")
 
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
 
