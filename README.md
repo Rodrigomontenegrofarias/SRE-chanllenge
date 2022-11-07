@@ -67,11 +67,14 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 ## Instructivo despliegue de ambiente.
 
-1. `git clone repo.`
-2. `cd repo`
+1. `git clone https://github.com/Rodrigomontenegrofarias/SRE-chanllenge.git`
+2. `cd SRE-chanllenge`
 3. `cd terraform`
-4. `install terraform `
-5. `ejecutar terraform intit`
+4. `install terraform`
+5. `ejecutar terraform init`
+6. `ejecutar terraform validate`
+7. `ejecutar terraform apply`
+
 
 # Nuestro ambientes estaran alojados en los siguientes Link:
 
