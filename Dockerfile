@@ -123,7 +123,7 @@ RUN cd notebooks
 ADD pickle_model.pkl notebooks/pickle_model.pkl
 ADD model.ipynb notebooks/model.ipynb
 
-ADD model.ipynb notebooks/guardar-notebook.ipynb
+ADD guardar-notebook.ipynb notebooks/guardar-notebook.ipynb
 
 ADD requirements.txt notebooks/requirements.txt
 RUN pip install -r notebooks/requirements.txt
