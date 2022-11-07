@@ -8,7 +8,7 @@ model = pickle.load(open('pickle_model.pkl', 'rb'))
 @app.route('/')
 def home():
     result = ''
-    return render_template('index.html')
+    return render_template('index.html', **locals())
 
 
 @app.route('/predict', methods=['POST', 'GET'])
@@ -59,7 +59,7 @@ def predict():
      var11, var12,var13, var14, var15, var16,var17, var18, var19, var20,var21, var22,
      var23, var24,var24, var25, var26, var27, var28, var29, var30,var31, var32,
      var33, var34,var35,var36]])[0]
-    return render_template('index.html')
+    return render_template('index.html', **locals())
 
 if __name__ == '__main__':
     app.run(debug=True,host="0.0.0.0")

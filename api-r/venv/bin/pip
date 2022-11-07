@@ -1,4 +1,6 @@
-#!/home/rodrigo/SRE-chanllenge/api-r/venv/bin/python3
+#!/bin/sh
+'''exec' "/mnt/c/Users/rodri/Desktop/prueba/Deploy model using Flask/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys
