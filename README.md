@@ -79,7 +79,8 @@ Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guard
 
 Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
-
+<video src="imagenes/rodrigo-1" controls="controls" style="max-width: 730px;">
+</video>
 
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
 
