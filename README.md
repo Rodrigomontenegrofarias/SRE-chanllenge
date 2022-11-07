@@ -48,7 +48,7 @@ A mi prejuicio si, pero en primera ocacion se debería implemenmtar LDAP y obten
 SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansables, luego controlar nuestra SLO priorisando las tareas de acuerdo a efectuar las necesidades del cliente. En las SLI evalúa el cumplimiento de un SLO, por ejemplo para ver cuanto tiempo estaran disponibles nuestros sistemas, cumpliendo o superando las promesas realizada en els documento. 
 
 
-#Instructivo despliegue de ambiente.
+## Instructivo despliegue de ambiente.
 
 git clone repo.
 cd repo
@@ -57,7 +57,7 @@ install terraform
 ejecutar
 terraform intit
 
-#Nuestro ambientes:
+# Nuestro ambientes:
 
 Jupyter notebook =
 API =
