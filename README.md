@@ -19,7 +19,7 @@ Para el primer paso se utilizo el framework de Flask que nos permite crear una a
 fue almacenado y cargado de forma serializada con pickle.
 
 <p align="center">
-  <img width="500" height="200" src="imagenes/UML-13.png">
+  <img width="500" height="200" src="imagenes/UML-14.jpg">
 </p>
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
