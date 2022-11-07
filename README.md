@@ -75,9 +75,7 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 2. [Notebook Jupyter](https://localhost:8881)
 
-Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guardar el mejor modelo automatico de pickle de forma serializada.
-
-Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
+Se ejecuta la pagina web de jupyter nobtebook  con el fin de guardar el mejor modelo automatico de pickle de forma serializada. Luego se puede probar el modelo de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
 
 
