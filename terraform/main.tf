@@ -16,10 +16,10 @@ resource "docker_image" "notebook-jupyter" {
 
 resource "docker_container" "notebook-jupyter" {
   image = docker_image.notebook-jupyter.latest
-  name  = "tutoriall"
+  name  = "tutorial1"
   ports {
     internal = 8888
-    external = 8886
+    external = 8881
   }
 }
 
@@ -30,7 +30,7 @@ resource "docker_image" "api" {
 
 resource "docker_container" "api" {
   image = docker_image.api.latest
-  name  = "tutorial1"
+  name  = "api"
   ports {
     internal = 5000
     external = 5000
