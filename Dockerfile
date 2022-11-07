@@ -122,14 +122,11 @@ RUN cd notebooks
 
 ADD pickle_model.pkl notebooks/pickle_model.pkl
 ADD model.ipynb notebooks/model.ipynb
-
-ADD guardar-notebook.ipynb notebooks/guardar-notebook.ipynb
-
 ADD requirements.txt notebooks/requirements.txt
 RUN pip install -r notebooks/requirements.txt
 
 # Populate notebooks
-COPY datasets notebooks/datasets/
+COPY datasets notebooks/notebooks/
 WORKDIR /root/notebooks
 ENV PYTHONPATH=/root/notebooks
 
