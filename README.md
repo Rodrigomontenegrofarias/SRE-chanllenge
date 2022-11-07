@@ -22,23 +22,24 @@ fue almacenado y cargado de forma serializada con pickle.
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
 
-Para la contruccion de nuestra api y jupyter notebook fue realizada con docker, 
+Para la contruccion de nuestra api y jupyter notebook fue realizada con docker, en donde
 se automatizaron procesos de guardado de nuestro notebook y algunos archivos en github en nuestro respositorio en la rama develop.
+Luego que podiamos implementarlo de forma local se dessarollo atraves de Terraform con el fin de obtener nuestro repositorio automatizado.
 
 3. Hacer pruebas de estrés a la API con el modelo expuesto con al menos 50.000 requests durante 45
 segundos.
 
-Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 para concluir
-con una discucion de los resultados.
+Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 ya que solo nos permitio con estos parametros, se deduce que .
 
+Prueba de estres a la API nº1
 <p align="center">
   <img width="500" height="200" src="imagenes/1.png">
 </p>
-
+Prueba de estres a la API nº2
 <p align="center">
   <img width="500" height="200" src="imagenes/3.png">
 </p>
-
+Prueba de estres a la API nº3
 <p align="center">
   <img width="500" height="200" src="imagenes/6.png">
 </p>
@@ -48,6 +49,7 @@ con una discucion de los resultados.
 
 
 a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
+
 Las pruebas se podrian mejorar automatizando este proceso y guardando estos parametros obtenidos por la estres realizada a la API.
 
 
