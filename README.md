@@ -50,14 +50,13 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 ## Instructivo despliegue de ambiente.
 
-git clone repo.
-cd repo
-cd terraform
-install terraform 
-ejecutar
-terraform intit
+1. git clone repo.
+2. cd repo
+3. cd terraform
+4. install terraform 
+5. ejecutar terraform intit
 
-# Nuestro ambientes:
+# Nuestro ambientes estaran alojados en los siguientes Link:
 
 Jupyter notebook =
 API =
