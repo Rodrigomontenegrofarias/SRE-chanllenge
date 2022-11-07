@@ -1,7 +1,7 @@
 # SRE-chanllenge
 
 #Prueba tecnica Chanllenge, Devops
-## El Problema:
+# El Problema:
 Se ha proporcionado un cuaderno jupyter notebook que contiene el trabajo de un Data Scientist y ML Engineer.
 
 – El problema que trató de resolver el DS fue predecir la probabilidad de atraso de los vuelos que aterrizan o
@@ -9,7 +9,7 @@ despegan del aeropuerto de Santiago de Chile (SCL). Para eso utilizó un dataset
 donde cada fila corresponde a un vuelo que aterrizó o despegó de SCL.
 – Para cada vuelo se cuenta con la siguiente información:
 
-###Como SRE Engineer, tu desafío consiste en tomar el trabajo del equipo, exponerlo para que sea explotado por un
+#Como SRE Engineer, tu desafío consiste en tomar el trabajo del equipo, exponerlo para que sea explotado por un
 sistema:
 
 1. Exponer el modelo serializado a través API REST.
