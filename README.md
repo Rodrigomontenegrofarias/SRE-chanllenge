@@ -28,8 +28,9 @@ segundos.
 
 Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 para concluir
 con una discucion de los resultados.
-
-
+![nombre de la imagen][img1]
+![nombre de la imagen][img1]
+![nombre de la imagen][img1]
 
 
 a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
@@ -65,7 +66,10 @@ Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guard
 
 Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en la siguente imagen.
 
+![nombre de la imagen][img1]
+
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
+
 
 
 
