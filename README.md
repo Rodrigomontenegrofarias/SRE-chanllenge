@@ -16,10 +16,10 @@ sistema:
 
 
 Para el primer paso se utilizo el framework de Flask que nos permite crear una api rest para la utilizacion cliente-servidor como se muestra en la sigeunte imagen, con peticiones post y get, con la intencion de ser consumidos, utilizamos un index para exponer el modelo mas optimo para este problema,
-fue almacenado y cargado de forma serializada con pickle en respectiva api, ya que luego se utilizara para predecir si el avion .
+fue almacenado y cargado de forma serializada con pickle en respectiva api, ya que luego se utilizara para predecir, si el avion se atraza.
 
 <p align="center">
-  <img width="900" height="450" src="imagenes/UML-13.jpg">
+  <img width="850" height="350" src="imagenes/UML-14.jpg">
 </p>
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
@@ -31,7 +31,7 @@ Luego que ya lo implementamos de forma local se desarolla a través de Terraform
 3. Hacer pruebas de estrés a la API con el modelo expuesto con al menos 50.000 requests durante 45
 segundos.
 
-Se utilizo wrk para el estrés de la API, realizamos 3 pruebas distintas a la ruta localhost:5000 con parametros de thread de 1, 3 y 6, como se representaran a continuación en las siguientes imágenes. 
+Se utilizo wrk para el estrés de la API, realizamos 3 pruebas distintas a la ruta localhost:5000 con los 50.000 requests, durante 45 segundos con thread de 1, 3 y 6, como se representarán a continuación en las siguientes imágenes. 
 
 Prueba de estres a la API nº1
 <p align="center">
@@ -84,7 +84,7 @@ SLOs las definiria en primera instancia seria mapear nuestros objetivos alcansab
 
 2. [Notebook Jupyter](https://localhost:8881)
 
-Se ejecuta la pagina web de jupyter nobtebook  con el fin de guardar el mejor modelo automatico de pickle de forma serializada. Luego se puede probar el modelo de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
+Se ejecuta la pagina web de Jupyter Nobtebook con el fin de guardar el mejor modelo automatico de pickle de forma serializada. Luego se puede probar el modelo de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en el siguente video.
 
 
 
