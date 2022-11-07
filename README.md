@@ -28,9 +28,11 @@ segundos.
 
 Se utilizo wrk para el estrés de la API y realizamos 3 pruebas distintas a la ruta localhost:5000 de nuestra api, con thear de wrk de 1,3,6 para concluir
 con una discucion de los resultados.
-![Texto alternativo](imagenes/1.png "Título alternativo")
-![Texto alternativo](imagenes/3.png "Título alternativo")
-![Texto alternativo](imagenes/6.png "Título alternativo")
+![Imagen de estres 1](imagenes/1.png "Imagen de estres con 1 thread"){width=300 height=300}
+
+![Imagen de estres 2](imagenes/3.png "Imagen de estres con 3 thread")
+
+![Imagen de estres 3](imagenes/6.png "Imagen de estres con 6 thread")
 
 
 a. ¿Cómo podrías mejorar el performance de las pruebas anteriores?
@@ -66,7 +68,7 @@ Se ejecuta la pagina web de jupyter nobtebook localhost:8881 con el fin de guard
 
 Luego se puede probar de deacuerdo las variables que son 36, estimando con el modelo en localhost:5000, como se visualiza en la siguente imagen.
 
-![Texto alternativo](/ruta/a/la/imagen.jpg "Título alternativo")
+![Texto alternativo](imagenes/1.png "Título alternativo")
 
 Por ultimo se efecutaron pruebas estimando, si el avion llega tarde o no de acuerdo a las variables mensionadas anteriormente.
 
