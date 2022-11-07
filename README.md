@@ -19,7 +19,7 @@ Para el primer paso se utilizo el framework de Flask que nos permite crear una a
 fue almacenado y cargado de forma serializada con pickle en respectiva api, ya que luego se utilizara para predecir, si el avion se atraza.
 
 <p align="center">
-  <img width="850" height="550" src="imagenes/UML-14.jpg">
+  <img width="850" height="550" src="imagenes/UML-15.jpg">
 </p>
 
 2. Automatizar el proceso de construcción y despliegue de la API, utilizando uno o varios servicios cloud.
