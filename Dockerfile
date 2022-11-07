@@ -121,12 +121,13 @@ RUN mkdir notebooks
 RUN cd notebooks
 
 ADD pickle_model.pkl notebooks/pickle_model.pkl
+ADD guardar-notebook.ipynb notebooks/guardar-notebook.ipynb
 ADD model.ipynb notebooks/model.ipynb
 ADD requirements.txt notebooks/requirements.txt
 RUN pip install -r notebooks/requirements.txt
 
 # Populate notebooks
-COPY datasets notebooks/notebooks/
+COPY datasets notebooks/datasets/
 WORKDIR /root/notebooks
 ENV PYTHONPATH=/root/notebooks
 
@@ -141,4 +142,4 @@ ENTRYPOINT ["jupyter", "notebook"]
 EXPOSE 8881
 #docker run -p 8881:8888 monteblack1/notebook-111 
 
-#docker build . -t monteblack1/notebook-111                  
+#docker build . -t monteblack1/notebook-111 
