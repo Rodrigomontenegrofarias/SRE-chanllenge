@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/59695256/200410471-d3cdb85f-834b-4110-
 
 
 Por ultimo se efecutaron pruebas predictivas, en el caso que avion obtenga una probabilidad de atraso de los vuelos que aterrizan o
-despegan del aeropuerto de Santiago de Chile, de acuerdo a las variables de entrada que fueron mencionadas anteriormente y vistas en el video, logrando predecir o estimar correctamente en el caso que sea 1 es atrazo y en caso contrario, que el avio llega correctamente es 0.
+despegan del aeropuerto de Santiago de Chile, de acuerdo a las variables de entrada que fueron mencionadas anteriormente y vistas en el video, logrando predecir o estimar correctamente en el caso que sea 1 es atrazo y en caso contrario, que el avión llega correctamente es 0.
 
 
 
