@@ -33,6 +33,6 @@ resource "docker_container" "api1" {
   name  = "api1"
   ports {
     internal = 5000
-    external = 5000
+    external = 5001
   }
 }
