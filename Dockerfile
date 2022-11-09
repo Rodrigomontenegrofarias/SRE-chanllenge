@@ -2,8 +2,6 @@ FROM ubuntu:18.04
 # Image providing Jupyter notebook server with Python 3.6 bindings for OpenCV 3.4.5
 # Based on https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
 
-
-
 # Switch to root to be able to install stuff
 USER root
 
@@ -130,7 +128,6 @@ RUN pip install -r notebooks/requirements.txt
 COPY datasets notebooks/datasets/
 WORKDIR /root/notebooks
 ENV PYTHONPATH=/root/notebooks
-
 
 
 # Run tests
