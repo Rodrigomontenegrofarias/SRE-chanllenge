@@ -23,14 +23,14 @@ resource "docker_container" "notebook-jupyter" {
   }
 }
 
-resource "docker_image" "api" {
-  name         = "monteblack1/api:latest"
+resource "docker_image" "api1" {
+  name         = "monteblack1/api1:latest"
   keep_locally = false
 }
 
-resource "docker_container" "api" {
-  image = docker_image.api.latest
-  name  = "api"
+resource "docker_container" "api1" {
+  image = docker_image.api1.latest
+  name  = "api1"
   ports {
     internal = 5000
     external = 5000
