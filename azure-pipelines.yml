@@ -7,17 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
-strategy:
-  matrix:
-    Python27:
-      python.version: '2.7'
-    Python35:
-      python.version: '3.5'
-    Python36:
-      python.version: '3.6'
-    Python37:
-      python.version: '3.7'
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: UsePythonVersion@0
@@ -34,3 +24,9 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.SourcesDirectory)/build'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
